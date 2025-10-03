@@ -19,9 +19,9 @@ const Home = () => {
                         <p className='text-white'>A self-taught UI/UX designer, functioning in the industry for 3+ years now. <br /> I make meaningful and delightful digital products that create an equilibrium <br /> between user needs and business goals.</p>
                     </section>
                     <section className='my-5 work'>
-                        <h1 className='text-white'>Work Experience</h1>
+                        <h1 className='text-white text-center'>Work Experience</h1>
                         <div className="row text-center my-5">
-                            <div className="col-6">
+                            <div className="col-6 d-flex justify-content-center">
                                 <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#260658ff"}}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
@@ -36,7 +36,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6">
+                            <div className="col-6 d-flex justify-content-center">
                                 <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#260658ff"}}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
@@ -52,8 +52,8 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row text-center my-5">
-                            <div className="col-6">
+                        <div className="row  text-center my-5">
+                            <div className="col-6 d-flex justify-content-center">
                                 <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#260658ff"}}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
@@ -68,7 +68,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6">
+                            <div className="col-6 d-flex justify-content-center">
                                 <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#260658ff"}}>
                                     <div className="row g-0">
                                         <div className="col-md-4">
